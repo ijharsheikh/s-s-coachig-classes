@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Admission Form -->
+<form id="admission-form">
+    <h2>Admission Application Form</h2>
+    <hr>
+  
+    <!-- Student Information -->
+    <section>
+      <h3>Student Information</h3>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="date-of-birth">Date of Birth:</label>
+        <input type="date" id="date-of-birth" name="date-of-birth" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+    </section>
+  
+    <!-- Parent Information -->
+    <section>
+      <h3>Parent Information</h3>
+      <div class="form-group">
+        <label for="parent-name">Parent Name:</label>
+        <input type="text" id="parent-name" name="parent-name" required>
+      </div>
+      <div class="form-group">
+        <label for="parent-contact">Parent Contact:</label>
+        <input type="tel" id="parent-contact" name="parent-contact" required>
+      </div>
+      <div class="form-group">
+        <label for="parent-email">Parent Email:</label>
+        <input type="email" id="parent-email" name="parent-email" required>
+      </div>
+    </section>
+    <!-- Academic Information -->
+    <section>
+      <h3>Academic Information</h3>
+      <div class="form-group">
+        <label for="previous-school">Previous School:</label>
+        <input type="text" id="previous-school" name="previous-school" required>
+      </div>
+      <div class="form-group">
+        <label for="previous-grade">Previous Grade:</label>
+        <select id="previous-grade" name="previous-grade" required>
+          <option value="">Select</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="admission-grade">Admission Grade:</label>
+        <select id="admission-grade" name="admission-grade" required>
+          <option value="">Select</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+    </section>
+  
+    <!-- Submit Button -->
+    <button type="submit">Submit Application</button>
+    <button type="button" class="btn btn-primary"><a href="index.html" style="color: antiquewhite;">home</a></button>
+
+    
+    
+  </form>
+</body>
+</html>
